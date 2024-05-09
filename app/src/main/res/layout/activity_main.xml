@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_single_text_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Text ListView" />
+
+        <Button
+            android:id="@+id/btn_icon_text_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Icon Text Listview" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empty" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
