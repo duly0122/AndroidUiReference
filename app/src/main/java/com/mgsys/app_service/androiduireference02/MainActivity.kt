@@ -7,6 +7,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
 import com.mgsys.app_service.androiduireference02.databinding.ActivityMainBinding
+import com.mgsys.app_service.androiduireference02.listview.Formatted01ListActivity
 import com.mgsys.app_service.androiduireference02.listview.IconTextListViewActivity
 import com.mgsys.app_service.androiduireference02.listview.SingleTextListViewActivity
 
@@ -37,6 +38,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnIconTextListview.setOnClickListener {
             val intent = Intent(this, IconTextListViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnFormattedListview.setOnClickListener {
+            val intent = Intent(this, Formatted01ListActivity::class.java)
             startActivity(intent)
         }
 

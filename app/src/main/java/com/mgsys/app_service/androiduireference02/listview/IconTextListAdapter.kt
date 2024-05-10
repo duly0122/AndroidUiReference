@@ -23,8 +23,8 @@ class IconTextListAdapter(private val context: Context, private val items: List<
 
         val item = items[position]
 
-        val iconImageView = view!!.findViewById<ImageView>(R.id.icon)
-        iconImageView.setImageResource(item.icon)
+        val imageView = view!!.findViewById<ImageView>(R.id.icon)
+        imageView.setImageResource(item.icon)
 
         val textView = view.findViewById<TextView>(R.id.text)
         textView.setText(item.text)
