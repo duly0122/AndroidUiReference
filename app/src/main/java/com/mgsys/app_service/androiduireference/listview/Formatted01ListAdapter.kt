@@ -1,4 +1,4 @@
-package com.mgsys.app_service.androiduireference02.listview
+package com.mgsys.app_service.androiduireference.listview
 
 import android.content.Context
 import android.os.Build
@@ -9,8 +9,7 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.RequiresApi
-import com.mgsys.app_service.androiduireference02.R
-import com.mgsys.app_service.androiduireference02.type.DateTimeDisplayFormat
+import com.mgsys.app_service.androiduireference.R
 import java.text.SimpleDateFormat
 import java.util.Date
 

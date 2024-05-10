@@ -1,6 +1,5 @@
-package com.mgsys.app_service.androiduireference02.ui.theme
+package com.mgsys.app_service.androiduireference.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -34,7 +33,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun AndroidUiReference02Theme(
+fun AndroidUiReferenceTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

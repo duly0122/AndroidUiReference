@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mgsys.app_service.androiduireference02"
+    namespace = "com.mgsys.app_service.androiduireference"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mgsys.app_service.androiduireference02"
+        applicationId = "com.mgsys.app_service.androiduireference"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

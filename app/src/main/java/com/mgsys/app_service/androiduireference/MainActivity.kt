@@ -1,15 +1,12 @@
-package com.mgsys.app_service.androiduireference02
+package com.mgsys.app_service.androiduireference
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.ui.AppBarConfiguration
-import com.mgsys.app_service.androiduireference02.databinding.ActivityMainBinding
-import com.mgsys.app_service.androiduireference02.listview.Formatted01ListActivity
-import com.mgsys.app_service.androiduireference02.listview.IconTextListViewActivity
-import com.mgsys.app_service.androiduireference02.listview.SingleTextListViewActivity
+import com.mgsys.app_service.androiduireference.databinding.ActivityMainBinding
+import com.mgsys.app_service.androiduireference.listview.Formatted01ListActivity
+import com.mgsys.app_service.androiduireference.listview.IconTextListViewActivity
+import com.mgsys.app_service.androiduireference.listview.SingleTextListViewActivity
 
 
 class MainActivity : AppCompatActivity() {

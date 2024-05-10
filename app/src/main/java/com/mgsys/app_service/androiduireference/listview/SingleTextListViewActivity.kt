@@ -1,12 +1,9 @@
-package com.mgsys.app_service.androiduireference02.listview
+package com.mgsys.app_service.androiduireference.listview
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
-import com.mgsys.app_service.androiduireference02.R
-import com.mgsys.app_service.androiduireference02.databinding.ActivityListViewBinding
-import com.mgsys.app_service.androiduireference02.databinding.ActivityMainBinding
+import com.mgsys.app_service.androiduireference.databinding.ActivityListViewBinding
 
 class SingleTextListViewActivity : AppCompatActivity() {
     private lateinit var listViewBinding: ActivityListViewBinding

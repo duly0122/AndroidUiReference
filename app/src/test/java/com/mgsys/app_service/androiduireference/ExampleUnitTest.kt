@@ -1,4 +1,4 @@
-package com.mgsys.app_service.androiduireference02
+package com.mgsys.app_service.androiduireference
 
 import org.junit.Test
 

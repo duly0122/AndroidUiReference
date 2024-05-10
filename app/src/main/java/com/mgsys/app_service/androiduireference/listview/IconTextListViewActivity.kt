@@ -1,9 +1,9 @@
-package com.mgsys.app_service.androiduireference02.listview
+package com.mgsys.app_service.androiduireference.listview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.mgsys.app_service.androiduireference02.R
-import com.mgsys.app_service.androiduireference02.databinding.ActivityListViewBinding
+import com.mgsys.app_service.androiduireference.R
+import com.mgsys.app_service.androiduireference.databinding.ActivityListViewBinding
 
 class IconTextListViewActivity : AppCompatActivity() {
     private lateinit var bindListView: ActivityListViewBinding

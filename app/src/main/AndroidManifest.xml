@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidUiReference02"
+        android:theme="@style/Theme.AndroidUiReference"
         tools:targetApi="31">
         <activity
             android:name=".listview.Formatted01ListActivity"
@@ -25,7 +25,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AndroidUiReference02">
+            android:theme="@style/Theme.AndroidUiReference">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

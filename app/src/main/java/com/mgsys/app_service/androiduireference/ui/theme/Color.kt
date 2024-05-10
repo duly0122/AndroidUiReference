@@ -1,4 +1,4 @@
-package com.mgsys.app_service.androiduireference02.ui.theme
+package com.mgsys.app_service.androiduireference.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

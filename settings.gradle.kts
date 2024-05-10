@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AndroidUiReference02"
+rootProject.name = "AndroidUiReference"
 include(":app")
  
