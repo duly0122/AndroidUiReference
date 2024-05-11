@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun buttonClickEvents() {
         //val btnSingleTextList = findViewById<Button>(R.id.btn_single_text_listview)
-        //val btnSingleTextList = binding.btnSingleTextListview
 
         binding.btnSingleTextListview.setOnClickListener {
             val intent = Intent(this, SingleTextListViewActivity::class.java)

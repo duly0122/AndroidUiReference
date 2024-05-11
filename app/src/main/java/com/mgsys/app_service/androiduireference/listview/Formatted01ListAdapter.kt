@@ -13,7 +13,14 @@ import com.mgsys.app_service.androiduireference.R
 import java.text.SimpleDateFormat
 import java.util.Date
 
-data class Formatted01Item(val icon: Int, val datetime: Long, val account: String, val totalInvested: Float, val cashBalance: Float, val investment: Float)
+data class Formatted01Item(
+    val icon: Int,
+    val datetime: Long,
+    val account: String,
+    val totalInvested: Float,
+    val cashBalance: Float,
+    val investment: Float
+)
 
 class Formatted01ListAdapter(private val context: Context, private val items: List<Formatted01Item>) :
     ArrayAdapter<Formatted01Item?>(context, 0, items) {
